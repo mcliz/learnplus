@@ -68,3 +68,4 @@ print(f"\nBecause {Guider_girl} is a girl")
 
 #record time：2023.11.24
 #Today is over，tomorrow will be more good
+#exactly 2023.11.24 0:20

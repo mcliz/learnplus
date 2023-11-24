@@ -72,3 +72,8 @@ print(f"\nBecause {Guider_girl} is a girl")
 
 name_2='gu junjie'
 print(f"{name_2.title()} is on my bed at 23:00")
+test=[value**2 for value in range(10)]
+print(test)
+#列表表达式
+
+#record time：2023.11.24 exactly 23：24

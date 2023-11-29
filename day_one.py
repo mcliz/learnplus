@@ -59,6 +59,7 @@ Guiders.append('Li Yv')
 print(Guiders)
 #列表形式
 print(f"\nBecause {Guider_girl} is a girl")
+print(f"Because {Guiders[0]} is a man")
 
 #test git
 #test git 2
@@ -77,3 +78,39 @@ print(test)
 #列表表达式
 
 #record time：2023.11.24 exactly 23：24
+
+#test5.3
+alien_color='green'
+if alien_color == 'green':
+    print('You are right,the alien is green')
+elif alien_color == 'yellow':
+    print('You are wrong')
+
+message='input'
+while message == 'input':
+    print(message)
+    break
+while True:
+    city=input('Where are you from:')
+
+    if city == 'hebei':
+        print('You are right')
+        break
+    else:
+        break
+
+num=1
+sum=0
+while num <= 100:
+    num+=1
+    sum=sum+num
+print(sum)
+
+def greet_user():
+    print('Hello,world')
+greet_user()
+
+def greet(username):
+    print(f"Hello {username.title()}")
+greet('bob')
+
